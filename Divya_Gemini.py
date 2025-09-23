@@ -2,7 +2,7 @@ import google.generativeai as genai
 import pandas as pd
 import csv
 
-genai.configure(api_key="AIzaSyCabNczy7b52PThkwKb4o_vRg7CI_eS7Ng")
+genai.configure(api_key="your-api-key-here")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 df = pd.read_csv("./my_dataset_final.csv")
