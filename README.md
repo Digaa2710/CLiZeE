@@ -71,7 +71,7 @@ Each input sentence was transformed into **three Q&A pairs**, asking the model:
 | Gujarati | XLM-RoBERTa Base | 45.8 | 76.3 | Moderate performance |
 | **Gujarati** | **XLM-RoBERTa-Large (SQuAD2)** | **54.4** | **80.7** | ✅ Best Results |
 | Gujarati | IndicBERT | 39.2 | 68.5 | Weak cross-lingual generalization |
-| Marathi | XLM-RoBERTa-Large (SQuAD2) | 51.7 | 78.9 | Strong performance in Devanagari script |
+| Marathi | XLM-RoBERTa-Large (SQuAD2) | 64.33 | 82.95 | Strong performance in Devanagari script |
 
 ---
 
@@ -109,6 +109,4 @@ Despite some accuracy loss due to linguistic and script differences, the approac
 - **Type:** Zero-Shot Cross-Lingual Transfer  
 
 
-
-If you use this work, please cite:
 
